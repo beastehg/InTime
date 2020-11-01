@@ -1,0 +1,91 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font: 16px/1.63 'Rubik', Arial, sans-serif;
+	color: #465a64;
+	font-weight: 300;
+	background-color: #fff;
+	min-width: 320px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: top;
+}
+
+p,
+ul,
+ol {
+	margin: 0 0 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1.2;
+	margin: 0 0 .5em;
+	color: #282b2f;
+}
+
+h1 {
+	font-size: 44px;
+	line-height: 1.23;
+	font-weight: 500;
+	
+}
+
+h2 {
+	font-size: 36px;
+	line-height: 1.06;
+	font-weight: 500;
+}
+
+h3 {
+	font-size: 28px;
+	line-height: 1.36;
+	font-weight: 500;
+}
+
+h4 {
+	font-size: 22px;
+	line-height: 1.18;
+	font-weight: 500;
+}
+
+h5 {
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1.4;
+}
+
+h6 {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.63;
+}
+
+h6 {
+	font-size: 14px;
+}
+
+a {
+	color: #1976d2;
+	line-height: 1.75;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
